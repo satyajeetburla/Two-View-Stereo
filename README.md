@@ -1,5 +1,5 @@
 # Two-View-Stereo
-This project harnesses classical computer vision techniques to transform multiple 2D viewpoints into a 3D representation of a scene.
+This project implements a two-view stereo algorithm to convert multiple 2D view-points into a 3D reconstruction of the scene.
 
 ## Core Tasks:
 ### Rectify Two Views:
