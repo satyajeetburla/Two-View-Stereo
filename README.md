@@ -15,16 +15,18 @@ This project harnesses classical computer vision techniques to transform multipl
 - **Consistency**: Implement left-right consistency for patch matching.
 - **Disparity Construction**: Formulate the full disparity map based on the above steps.
   <p align="center">
-    <img src="https://github.com/satyajeetburla/Two-View-Stereo/blob/main/img/img2.png" width="400" />
-    <img src="https://github.com/satyajeetburla/Two-View-Stereo/blob/main/img/img3.png" width="400" /> 
+    <img src="https://github.com/satyajeetburla/Two-View-Stereo/blob/main/img/img2.PNG" width="400" />
+    <img src="https://github.com/satyajeetburla/Two-View-Stereo/blob/main/img/img3.PNG" width="400" /> 
   </p>
 
 
 ### Depth Map and Point Cloud:
 - **Depth Derivation**: Using the disparity map, derive a depth map.
 - **Point Cloud Formation**: Back-project to form a point cloud in the camera frame.
-  ![URL_OF_THE_IMAGE](https://github.com/satyajeetburla/Two-View-Stereo/blob/main/img/img4.PNG)
-
+-
+<p align="center">
+   ![URL_OF_THE_IMAGE](https://github.com/satyajeetburla/Two-View-Stereo/blob/main/img/img4.PNG)
+ </p>
 ### Post-Processing:
 - **Transformation**: Transition the point cloud from the camera frame to the world frame.
 - **Visualization**: Utilize the K3D library for visual representation. Ensure to capture screenshots of reconstructions using SSD, SAD, and ZNCC kernels.
