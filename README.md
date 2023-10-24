@@ -23,7 +23,7 @@ This project harnesses classical computer vision techniques to transform multipl
 ### Depth Map and Point Cloud:
 - **Depth Derivation**: Using the disparity map, derive a depth map.
 - **Point Cloud Formation**: Back-project to form a point cloud in the camera frame.
-  ![URL_OF_THE_IMAGE](https://github.com/satyajeetburla/Two-View-Stereo/blob/main/img/img4.png)
+  ![URL_OF_THE_IMAGE](https://github.com/satyajeetburla/Two-View-Stereo/blob/main/img/img4.PNG)
 
 ### Post-Processing:
 - **Transformation**: Transition the point cloud from the camera frame to the world frame.
