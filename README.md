@@ -23,10 +23,10 @@ This project harnesses classical computer vision techniques to transform multipl
 ### Depth Map and Point Cloud:
 - **Depth Derivation**: Using the disparity map, derive a depth map.
 - **Point Cloud Formation**: Back-project to form a point cloud in the camera frame.
--
 <p align="center">
-   ![URL_OF_THE_IMAGE](https://github.com/satyajeetburla/Two-View-Stereo/blob/main/img/img4.PNG)
- </p>
+   <img src="https://github.com/satyajeetburla/Two-View-Stereo/blob/main/img/img4.PNG" width="400" />
+  
+</p>
 ### Post-Processing:
 - **Transformation**: Transition the point cloud from the camera frame to the world frame.
 - **Visualization**: Utilize the K3D library for visual representation. Ensure to capture screenshots of reconstructions using SSD, SAD, and ZNCC kernels.
